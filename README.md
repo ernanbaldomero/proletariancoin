@@ -3,7 +3,7 @@ Proletariancoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/ernanbaldomero/proletariancoin.svg?branch=master)](https://travis-ci.org/ernanbaldomero/proletariancoin)
 
-https://proletariancoin.cf
+http://proletariancoin.cf
 
 What is Proletariancoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Proletariancoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Proletariancoin Core software, see [https://proletariancoin.cf](https://proletariancoin.cf).
+the Proletariancoin Core software, see [http://proletariancoin.cf](https://proletariancoin.cf).
 
 License
 -------
