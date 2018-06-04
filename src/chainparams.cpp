@@ -74,11 +74,11 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 1314000;
-        consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("a5613438baf031324ac4896d69539472b30bbcf8f8c463cb400eeb9483270dcc");
-        consensus.BIP65Height = 0; // a5613438baf031324ac4896d69539472b30bbcf8f8c463cb400eeb9483270dcc
-        consensus.BIP66Height = 0; // a5613438baf031324ac4896d69539472b30bbcf8f8c463cb400eeb9483270dcc
+        consensus.nSubsidyHalvingInterval = 840000;
+        consensus.BIP34Height = 710000;
+        consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
+        consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
+        consensus.BIP66Height = 811879; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60;
         consensus.nPowTargetSpacing = 2 * 60;
@@ -163,8 +163,8 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 1314000;
-        consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("7344f36666f606c685a34e28291543721832060bc834e3a4ac4a0fbda24280da");
+        consensus.BIP34Height = 76;
+        consensus.BIP34Hash = uint256S("8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573");
         consensus.BIP65Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.BIP66Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
