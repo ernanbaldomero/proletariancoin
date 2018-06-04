@@ -74,7 +74,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 840000;
+        consensus.nSubsidyHalvingInterval = 1314000;
         consensus.BIP34Height = 710000;
         consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
         consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
@@ -101,10 +101,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000000000100010001");
+        consensus.nMinimumChainWork = uint256S("77a0919bcc9441b42dc53f0a5b1085c1eac4bed673723159b9b09d9387555fb2");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xa5613438baf031324ac4896d69539472b30bbcf8f8c463cb400eeb9483270dcc"); //0
+        consensus.defaultAssumeValid = uint256S("0x27e301abb4dcebd2e2d0356e37905565b77b1ed8e0dca0a52bea2f425129442d"); //1
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
