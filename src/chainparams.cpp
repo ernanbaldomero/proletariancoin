@@ -124,7 +124,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xca58a13a716ca4967e1493908116dcad1a7b812d935287820f76ccc8e1ecfd7f"));
 
 	vSeeds.emplace_back("ns1.seednode.cf", true);
-	vSeeds.emplace_back("seed1.seednode.cf", true);
+	vSeeds.emplace_back("ns2.seednode.cf", true);
+	vSeeds.emplace_back("ns3.seednode.cf", true);
 	
 	base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,56);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
